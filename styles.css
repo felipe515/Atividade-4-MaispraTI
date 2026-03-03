@@ -335,6 +335,11 @@
      gap: var(--spacing-md);
  }
 
+#cursos .projects-grid {
+     grid-template-columns: repeat(auto-fit, minmax(340px, 340px));
+     justify-content: center;
+ }
+
  .project-card {
      background: var(--card-bg);
      border-radius: var(--border-radius);
@@ -584,6 +589,7 @@
      .projects-grid {
          grid-template-columns: 1fr;
      }
+
  }
 
  @media (max-width: 480px) {
